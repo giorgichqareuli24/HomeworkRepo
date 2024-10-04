@@ -1,0 +1,11 @@
+touch commands.txt
+echo "mkdir HomeworkRepo" >> commands.txt
+echo "cd HomeworkRepo" >> commands.txt
+echo "git init" >> commands.txt
+echo "echo 'Hello, World!' > hello.txt" >> commands.txt
+echo "git add hello.txt" >> commands.txt
+echo "git commit -m 'Added hello.txt with greeting message'" >> commands.txt
+echo "git remote add origin https://github.com/თქვენი_მომხმარებელი_სახელი/HomeworkRepo.git" >> commands.txt
+echo "git branch -M main" >> commands.txt
+echo "git push -u origin main" >> commands.txt
+echo "git pull origin main" >> commands.txt
